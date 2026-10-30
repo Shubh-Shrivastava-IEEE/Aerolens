@@ -1,0 +1,50 @@
+# AEROLENS POST-MISSION DISASTER SUMMARY REPORT
+**Mission ID:** `OP-HYDRA-2024-11-15` | **Report Date:** 2024-11-16 06:00 UTC | **Classification:** OPERATIONAL SENSITIVE
+
+---
+
+## 1. EXECUTIVE SUMMARY & TOTAL RESCUES
+**Total Successful Rescues: 1 (Critical Priority)**  
+A single high-acuity extraction was executed in Zone **Chennai-North Industrial Corridor (Grid 13.0767°N, 80.2701°E)**. The survivor—trapped atop a submerged factory roof—was retrieved via motorboat under **CRITICAL** triage conditions. No fatalities or secondary casualties reported. Mission duration: 22 minutes (dispatch-to-handoff).
+
+---
+
+## 2. ZONE HEAT-MAP DESCRIPTION
+**Primary Hotspot:** *Chennai-North Industrial Corridor (1 km²)*  
+- **Hydrological Severity:** Verified water depth **2.47 m** (VL confidence 0.94), rising +0.15 m/hr.  
+- **Structural Integrity:** **UNSTABLE** – reinforced concrete spalling observed; collapse probability >60 % within 6 hrs.  
+- **Hazard Overlay:**  
+  - **Debris Field** (metal sheeting, chemical drums) – 40 % surface coverage.  
+  - **Chemical Spill Risk** – pH 3.2 runoff from breached storage tanks.  
+  - **Fast Current** – 2.8 kn easterly flow through submerged arterial road.  
+  - **Murky Water** – Secchi depth <0.3 m; zero visibility for divers.  
+
+**Secondary Warm Zones (Monitoring Only):**  
+- *Ennore Creek Mangroves* – rising backwater, no distress signals.  
+- *Tondiarpet Low-Lying Residential* – depth 0.8 m, stable; 12 families self-evacuated.
+
+---
+
+## 3. RESOURCE UTILISATION
+| Asset | Type | Sorties | On-Station Time | Fuel Burn | Payload Delivered |
+|-------|------|---------|-----------------|-----------|-------------------|
+| **MB-07** | 7 m RHIB (motorboat) | 1 | 18 min | 14 L | 1 survivor + medical kit |
+| **UAV-SAR-3** | Quadrotor (VL/thermal) | 2 | 35 min | 2.1 kWh | Real-time waypoint & hazard verification |
+| **Ground Team Alpha** | 4-person swift-water | 0 (standby) | 45 min | — | Shore reception & decon |
+
+**Cost Efficiency:** ₹1.8 L / rescue (fuel, battery, personnel).  
+**Bottleneck:** Single motorboat availability forced 10-min ETA; no redundant water asset within 15 km.
+
+---
+
+## 4. LESSONS LEARNED
+1. **VL-Verification Saved 8 Minutes** – Onboard multimodal model (Nemotron-3.5-Lightning) confirmed depth & structural risk *before* launch, eliminating recon orbit.  
+2. **Chemical Hazard Under-Prepared** – Boat crew lacked Level-B PPE; improvised splash protection only. Decon took 12 min post-extraction.  
+3. **Waypoint Granularity** – Single GALI waypoint sufficed for point target, but debris field demanded micro-adjustments (manual helm). Future: auto-generate 5-m corridor waypoints.  
+4. **Comms Latency** – SMS alert → dispatch 3 min; satellite-mesh relay would cut to <30 s.  
+5. **Current Forecast Error** – Hydro model predicted 1.5 kn; actual 2.8 kn. Ingest live ADCP feeds next cycle.
+
+---
+
+## 5. RECOMMENDED PRE-POSITIONING FOR NEXT DEPLOYMENT
+| Asset | Pre-Position Location | R

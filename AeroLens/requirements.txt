@@ -1,0 +1,16 @@
+# AeroLens -- Aerial Flood Rescue AI
+# Nebius x NVIDIA Global AI Hackathon submission
+
+# ---- Core CV + Edge AI ----
+ultralytics>=8.3.0
+opencv-python>=4.10.0
+numpy>=1.26.0
+
+# ---- Nebius Token Factory (OpenAI-compatible) ----
+openai>=1.40.0
+
+# ---- Utilities ----
+python-dotenv>=1.0.0
+Pillow>=10.4.0
+requests>=2.32.0
+tqdm>=4.66.0
